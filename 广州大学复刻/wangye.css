@@ -1,0 +1,192 @@
+.mintop,
+.minstart,
+.hideminnav{
+display: none;
+}
+ 
+ 
+ /* 顶部菜单 */
+ .middle{
+margin: 0 auto;
+}
+ 
+ 
+ .heads{
+width: 1300px;
+height: 600px;
+padding-top: 45px;
+}
+
+.heads .addwidth{
+width: 1300px;
+overflow: hidden;
+}
+ 
+ .nav-begin{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav-begin .one{
+    text-decoration: none;
+float: left;
+padding: 0 20px;
+}
+
+.nav-begin span{
+float: left;
+}
+
+.nav-begin .img{
+    float:left;
+    width: 15px;
+    height: 15px;
+    margin-top: 13px;
+    padding-left: 20px;
+background-image: url("./tab图片/en.png");
+background-position: 15px 0;
+background-repeat: no-repeat;
+}
+.nav-begin .two{
+    float: left;
+text-decoration: none;
+padding-right: 40px;
+}
+.nav-begin .top{
+    position: relative;
+float:left;
+}
+
+.nav-begin .top input{
+    display: none;
+    margin-bottom: 10px;
+border: 2px solid black;
+border-radius: 15px;
+width: 150px;
+height: 30px;
+}
+
+.nav-begin .top .bi-x{
+    display: none;
+position: absolute;
+right:4px;
+top: 2px;
+}
+
+.bi-search{
+position: absolute;
+right: 4px;
+top: 2px;
+}
+
+.nav-end{
+position: fixed;
+right: 108px;
+}
+.nav-end ul .one {
+    position: relative;
+float: right;
+width: 65px;
+height: 65px;
+padding: 0 15px;
+color: #fff;
+}
+.nav-end ul .one b{
+    display: block;
+width: 0;
+height: 0;
+margin: 0 auto;
+transform: translate(0,30px);
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-bottom: 10px solid green;
+opacity: 0;
+}
+
+.ani{
+    animation: move 1s forwards;
+}
+
+.nav-end .one .tc{
+    display: none;
+    position: absolute;
+    left: -30px;
+width: 165px; 
+height: 90px;
+transform: translate(0,30px);
+padding: 10px 20px 20px 20px;
+border-top: 3px solid #318640;
+color: black;
+opacity: 0;
+}
+
+@keyframes move{
+    0%{ opacity: 0;}
+50%{transform: translate(0,30);}
+100%{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.nav-end .one .tc li{
+width: 145px;
+height: 20px;
+padding: 12px 0;
+margin: 0 ;
+border-bottom: 2px solid gray;
+}
+
+.nav-end .one .tc li a:hover{
+color: greenyellow;
+}
+
+
+.checksth{
+
+}
+
+/* 侧面菜单 */
+.side{
+    position: fixed;
+    right: 0;
+    bottom: 37px;
+    width: 115px;
+    height: 290px;
+}
+
+#changes{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -110px;
+    width: 115px;
+    height: 290px;
+}
+
+.side ul li{
+    background-color: rgba(42,104,53,0.7);
+width: 115px;
+height: 40px;
+line-height: 40px;
+font-size: 12px;
+color: #2bb7b3;
+transition: all 0.5s;
+transform: translate(20px,0);
+}
+
+
+.side ul li:hover{
+transform: translate(0,0);
+background-color: hsla(51, 100%, 50%, 0.608);
+}
+
+.side ul li i{
+    float: left;
+width: 42px;
+text-align: center;
+}
+.side ul li img{
+width: 20px;
+vertical-align: middle;
+}

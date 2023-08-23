@@ -1,0 +1,98 @@
+.nav-begin,
+.nav-end,
+.side{
+    display: none;
+    }
+
+.addwidth{
+height: 50px;
+width: 100%;
+background-color: #318640;
+}
+
+.minstart{
+    overflow: hidden;
+    position: relative;
+font-size: 16px;
+line-height: 50px;
+}
+
+.minstart a{
+position: absolute;
+right: 60px;
+color: #fff;
+}
+
+
+.minstart .bi-list{
+float: right;
+font-size: 30px;
+color: #fff;
+margin-right: 18px;
+}
+
+.hideminnav{
+display: none;
+}
+
+.mintop{
+width: 100%;
+}
+
+.mintop li{
+
+background-color: #eef5ee;
+line-height: 40px;
+}
+
+.mintop li p{
+height: 20px;
+border-bottom: 1px solid #d7e3d7;
+padding: 8px 10px;
+line-height: 20px;
+font-size: 14px;
+} 
+
+.mintop li p a{
+color: #000000;
+font-weight: 500;
+}
+
+.mintop li p i{
+float: right;
+}
+
+
+.mintop li .in li{
+    display: none;
+height: 40px;
+border-bottom: 1px dashed #7E7E7E;
+padding: 10px 20px;
+line-height: 40px;
+font-size: 12px;
+color: #222;
+}
+
+
+.minbottom{
+    float: left;
+    width: 100%;
+    padding: 10px 0 0;
+    background-color: #cddbcc;
+color: #222;
+}
+
+.minbottom li{
+    float: left;
+width: 25%;
+line-height: 25px;
+    margin: 0 0 8px;
+text-align: center;
+}
+
+.minbottom li a{
+   width: 50px;
+   height: 40px;
+  color: #2a6835;
+    font-size: 12px;
+}
